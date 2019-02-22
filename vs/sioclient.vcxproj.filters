@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\internal\sio_client_impl.cpp">
+      <Filter>internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\internal\sio_packet.cpp">
+      <Filter>internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sio_client.cpp" />
+    <ClCompile Include="..\src\sio_socket.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="internal">
+      <UniqueIdentifier>{9e6e2c70-dc7f-419f-902c-faf6a1da297d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\internal\sio_client_impl.h">
+      <Filter>internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\internal\sio_packet.h">
+      <Filter>internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sio_client.h" />
+    <ClInclude Include="..\src\sio_message.h" />
+    <ClInclude Include="..\src\sio_socket.h" />
+  </ItemGroup>
+</Project>
